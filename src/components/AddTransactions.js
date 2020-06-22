@@ -13,6 +13,8 @@ export const AddTransactions = () => {
         amount:+amount,
       }
       addTransaction(newTransaction);
+      setAmount(0);
+      setText("");
     }
     
     return (
