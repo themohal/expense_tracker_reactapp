@@ -31,6 +31,7 @@ export const AddTransactions = () => {
           <input type="number" value={amount} onChange={(e)=>setAmount(e.target.value)}  placeholder="Enter amount..." />
         </div>
         <button  className="btn">Add transaction</button>
+        <footer>Copyright &#169; 2020 Developed by Muhammad Farjad Ali Raza</footer>
       </form>
         </>
     )
